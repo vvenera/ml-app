@@ -1,10 +1,11 @@
 ## CircleCI status
+[![CircleCI](https://circleci.com/gh/vvenera/ml-app/tree/master.svg?style=svg)](https://circleci.com/gh/vvenera/ml-app/tree/master)
 
 ## Project Overview
 
 This project operationalizes a Machine Learning Microservice API with a pre-trained `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing).
 
-It uses a Python flask app—in deployed as a containerized application with Docker and [Kubernetes](https://kubernetes.io/).
+It uses a Python flask app deployed as a containerized application with Docker and [Kubernetes](https://kubernetes.io/).
 
 
 ### Files
